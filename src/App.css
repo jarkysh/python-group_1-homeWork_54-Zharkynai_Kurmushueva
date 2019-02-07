@@ -22,11 +22,57 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-h2 {
+  color: darkslategray;
 }
+
+
+  div.task {
+  margin-top:1%;
+  position: relative;
+  border-width: 3px;
+  border-style: solid;
+  margin-left: 10%;
+  width: 70%;
+  display: inline-block;
+}
+p.task {
+  float: left;
+  padding: 5px;
+}
+img.del {
+  float: right;
+  height: 60px;
+  top: 10%;
+}
+button.add {
+  position: absolute;
+  margin-top: 4%;
+  height: 5%;
+  background-color: white;
+  border-color: black;
+  left: 65%;
+  width: 15%;
+  display: inline;
+  margin-bottom: 2%;
+}
+input.task{
+  font-size: 20px;
+  position: relative;
+  top: 2%;
+  margin-top: 4%;
+  left: 10%;
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+p.status{
+  float: bottom;
+  right: 20%;
+  margin-top: 8%;
+  border: 1px black;
+  font-size: 20px;
+  margin-bottom: 0%;
+  color: darkslategray;
+}
+

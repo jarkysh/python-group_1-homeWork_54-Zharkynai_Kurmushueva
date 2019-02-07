@@ -1,0 +1,19 @@
+.task {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 200px;
+    padding: 20px;
+    background: #eeeeee;
+}
+
+.h1{
+    color: darkslategray;
+}
+.h2{
+    color: darkslategray;
+}
+.p task{
+    color: darkslategray;
+}
